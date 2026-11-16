@@ -4,6 +4,14 @@
 
 我已使用 `clean.py` 对 Stack Overflow Developer Survey 2026 的公开结果文件和数据字典进行了读取与初步结构检查。本阶段的目标是确认数据文件可正常读取、记录与字段结构完整，并为后续研究对象和缺失值处理提供依据。目前不对原始数据进行覆盖或大规模填补。
 
+使用方法:
+①data/raw中放入survey_results_public.txt和survey_results_schema.txt
+②安装依赖
+③运行run.py
+
+运行结果：
+data/report下输出报告
+
 ## Step 1 — Data Loading & Initial Inspection：读取数据与基础检查
 
 初步检查结果：
